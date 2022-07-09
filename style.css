@@ -1,0 +1,44 @@
+body {
+    padding: 100px;
+    font-family: 'Oxygen', sans-serif;
+    /* background-image: url('paisa 2.jpg');
+    background-repeat: no-repeat;  */
+}
+
+.bank-title {
+    text-align: center;
+}
+
+.submit-area {
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 40px 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#transaction-area {
+    display: none;
+}
+
+.deposit {
+    background-color: #7E57C2;
+    border: none;
+}
+
+.withdraw {
+    background-color: #EF5350;
+    border: none;
+}
+
+.balance {e;
+    background-color: #26C6DA;
+    border: none;
+}
+
+.status {
+    margin: 0 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
