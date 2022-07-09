@@ -1,19 +1,28 @@
 body {
     padding: 100px;
     font-family: 'Oxygen', sans-serif;
-    /* background-image: url('paisa 2.jpg');
-    background-repeat: no-repeat;  */
+    /* background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('paisa.jpg');
+    background-repeat: no-repeat;  
+    background-position: center;
+    background-size: cover;
+    position: relative; */
 }
 
 .bank-title {
     text-align: center;
+    
 }
+
 
 .submit-area {
     margin-top: 50px;
     border-radius: 10px;
     padding: 40px 40px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.submit-area h4{
+    color: white;
 }
 
 #transaction-area {
